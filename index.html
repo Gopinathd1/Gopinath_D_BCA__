@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Gopinath | Data Scientist Portfolio</title>
+        <link rel="stylesheet" href="Styles.css">
+        <script src="https://kit.fontawesome.com/8c05b2d651.js" crossorigin="anonymous"></script>
+
+    </head>
+    
+<body>
+    <!-- Navigation -->
+    <header>
+        <nav>
+            <h1>Gopinath</h1>
+            <ul id="sidemenu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#Skills">Skills</a></li>
+                <li><a href="#Experience">Experience</a></li>
+                <li><a href="#Internship">Internship</a></li>
+                <li><a href="#Projects">Projects</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#Certifications">Certifications</a></li>
+                <li><a href="#tcs-score">Score</a></li>
+                <li><a href="#ContactInfo">Contact</a></li>
+                <li><a href="#ContactForm">Get in Touch</a></li>
+                <i class="fa-solid fa-times" id="close-icon"></i>
+            </ul>
+            <i class="fa-solid fa-bars" id="menu-icon"></i>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h2>Data Science Portfolio</h2>
+            <p>Turning data into insights</p>
+            <a href="#about" class="button">Learn More</a>
+        </div>
+    </section>
+
+
+    <picture>
+        <!-- Image for screens less than 600px -->
+        <source srcset="Data3_converted_resizedg" media="(max-width: 600px)">
+        <!-- Default image for larger screens -->
+        
+    </picture>
+    
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <p>I’m currently working as an Associate Research Executive at Zinnov with strong expertise in Data Science and Analytics. Skilled in Python, Machine Learning, and Power BI, I have experience in analyzing large datasets and building predictive models using Decision Trees, Random Forests, Logistic Regression, and Gradient Boosting. I’m passionate about transforming data into actionable insights and effectively communicating results to both technical and business teams.</p>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="Skills" class="Skills">
+        <div class="container">
+            <h1 class="sub-title">Skills</h1>
+            <div class="skills-list">
+                <div class="skill-item">
+                    <h3>Data Analysis</h3>
+                    <p>Python, Numpy, Matplotlib, Seaborn, Sklearn</p>
+                </div>
+                <div class="skill-item">
+                    <h3>Machine Learning Models</h3>
+                    <p>Linear Regression, Logistic Regression, Decision Tree, Random Forest Models, Support Vector Machine(SVM), K-Means Clustering, Time Series Analysis, XGBoost.</p>
+                </div>
+                <div class="skill-item">
+                    <h3>DataBase Management</h3>
+                    <p>MySQL</p>
+                </div>
+                <div class="skill-item">
+                    <h3>Data visualization and Reportinng</h3>
+                    <p>PowerBI, MS-Office</p>
+                </div>
+                <div class="skill-item">
+                    <h3>Web Applications</h3>
+                    <p>Streamlit</p>
+                </div>
+                <div class="skill-item">
+                    <h3>Programming Languages</h3>
+                    <p>Python, HTML5, CSS, JavaScript, C++, C</p>
+                </div>
+                <div class="skill-item">
+                    <h3>Tools & Technologies</h3>
+                    <p>Git, Github</p>
+                </div>
+                <div class="skill-item">
+                    <h3>Natural Language Processing (NLP)</h3>
+                    <p>ChatGPT, Gemini</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+<!-- Work Experience Section -->
+<section id="Experience" class="Experience">
+    <div class="container">
+        <h1 class="sub-title">Work Experience</h1>
+        <div class="experience-list">
+            <div class="experience-item">
+                <h3>Associate Research Executive</h3>
+                <p class="company">Zinnov</p>
+                <p class="date">October 2024 - Present</p>
+                <ul>
+                    <li>Conducting primary and secondary research to collect and validate data for accurate analysis.</li>
+                    <li>Analyzed company involvement in mergers and acquisitions (M&A), documenting deal values, participants, and strategic objectives. Compiled relevant data in Excel for further review.</li>
+                    <li>Provided actionable insights by assessing M&A trends and their impact on market dynamics. Supported strategic decision-making through concise reports and presentations.</li>
+                    <li>Currently working on a Contract Review project, analyzing company commitments and potential financial losses using Excel. Providing actionable insights for risk mitigation and decision-making.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+    
+    <!-- Internship Section -->
+<section id="Internship" class="Internship">
+    <div class="container">
+        <h1 class="sub-title">Internship Experience</h1>
+        <div class="experience-list">
+            <div class="experience-item">
+                <h3>Data Science Intern</h3>
+                <p class="company">Shiash Info Solutions Private Limited</p>
+                <p class="date">July 2024 - October 2024</p>
+                <ul>
+                    <li>Developed a strong foundation in data science and machine learning, gaining hands-on experience with various algorithms, including supervised, unsupervised, and reinforcement learning.</li>
+                    <li>Acquired skills in Power BI for data visualization and MySQL for database management, applying theoretical knowledge to practical scenarios.</li>
+                    <li>Successfully completed tasks in machine learning, Power BI, and MySQL, delivering actionable insights for real-world scenarios.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+    
+    <!-- Projects Section -->
+    <section id="Projects" class="Projects">
+        <div class="container">
+            <h1 class="sub-title">Projects</h1>
+            <div class="projects-list">
+                <!-- Project 1 -->
+                <div class="project-item">
+                    <h3>Customer_Churn Prediction </h3>
+                    <p>The analysis utilizes pandas, numpy, and matplotlib to perform exploratory data analysis (EDA) on the customer_churn dataset.
+                         It begins by addressing missing values, skewness, and outliers. A Linear Regression model is then applied to predict MonthlyCharges, with feature selection conducted through variance inflation factor (VIF) and correlation analysis to identify key predictors. 
+                        This approach facilitates a thorough examination of customer churn factors and their impact on monthly charges. </p>
+                    <div class="project-links">
+                        <a href="https://github.com/Gopinathd1/ChurnPredictionWithLinearRegression.git" target="_blank" class="btn">View on GitHub</a>
+                       <!-- <a href="https://chennai-housing-demo.com" target="_blank" class="btn">Live Demo</a>-->
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-item">
+                    <h3>Diabetes Prediction Analysis</h3>
+                    <p>A comprehensive notebook for predicting diabetes risk using Logistic Regression. It covers data preprocessing, EDA, and model implementation with an accuracy of 78.65%. Key tools include Pandas, NumPy, Scikit-learn, Matplotlib, and Seaborn.</p>
+                    <div class="project-links">
+                        <a href="https://github.com/Gopinathd1/Diabetes-Prediction-Analysis.git" target="_blank" class="btn">View on GitHub</a>
+                       <!-- <a href="https://taskmanager-demo.com" target="_blank" class="btn">Live Demo</a>-->
+                    </div>
+                </div>
+
+                 <!-- Project 3 -->
+                 <div class="project-item">
+                    <h3>Loan Approval Prediction App</h3>
+                    <p>The Loan Approval Prediction App is a web application that predicts loan approval status based on various input features. 
+                       Leveraging machine learning algorithms, it analyzes applicant data to provide instant predictions through a user-friendly interface. 
+                       Users can input details such as gender, marital status, dependents, education, employment status, income, loan amount, loan term, credit history, and property area. 
+                       Built with Streamlit, the app employs an XGBoost model for efficient predictions. The technologies used include Python for development, Streamlit for the web framework, XGBoost for model training, and Pandas and Scikit-learn for data manipulation and evaluation. 
+                       Users simply enter the necessary details and click the Predict button to see the loan approval result.
+                    </p>
+                    <div class="project-links">
+                        <a href="https://github.com/Gopinathd1/loan-prediction-app.git" target="_blank" class="btn">View on GitHub</a>
+                        <!--<a href="https://chennai-housing-demo.com" target="_blank" class="btn">Live Demo</a>-->
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="project-item">
+                    <h3>Stock Price Prediction</h3>
+                    <p>This project illustrates the use of the ARIMA (AutoRegressive Integrated Moving Average) model for forecasting stock prices, using a dataset of historical daily prices for ITC Ltd from January 1, 2024, to September 20, 2024. 
+                        The goal is to predict future stock prices based on historical data. 
+                        The dataset includes columns for Date, Open, High, Low, Close, and Volume, which serve as the basis for analysis. 
+                        The ARIMA model combines three components: Auto-regressive (AR), which considers relationships with lagged observations; Integrated (I), which involves differencing to achieve stationarity; and Moving Average (MA), which evaluates the relationship with residual errors. 
+                        To run the model, users upload the dataset, select ARIMA parameters (p, d, q), and visualize the predicted stock prices.
+                    </p>
+                    <div class="project-links">
+                        <a href="https://github.com/Gopinathd1/Stock_Price_Prediction.git" target="_blank" class="btn">View on GitHub</a>
+                       <!-- <a href="https://chennai-housing-demo.com" target="_blank" class="btn">Live Demo</a>-->
+                    </div>
+                </div>
+                
+                    <!-- Project 4 -->
+                <div class="project-item">
+                    <h3>Task Manager App</h3>
+                    <p>A Python and MySQL-based task management system with functionalities to add, update, view, and delete tasks. Designed for efficient task organization and tracking.</p>
+                    <div class="project-links">
+                        <a href="https://github.com/Gopinathd1/TaskManagement.git" target="_blank" class="btn">View on GitHub</a>
+                        <!--<a href="https://taskmanager-demo.com" target="_blank" class="btn">Live Demo</a>-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+
+
+<!-- Portfolio Section -->
+<section id="portfolio" class="portfolio">
+    <div class="container">
+        <h1 class="sub-title">Portfolio</h1>
+        <div class="portfolio-list">
+            <!-- Power BI Portfolio Item -->
+            <div class="portfolio-item">
+                <h3>Power BI Furniture Sales Overview</h3>
+                <p>I analyzed a dataset of furniture sales from 2021-2022 to evaluate key performance metrics across products, regions, and salespersons. 
+                   I imported, cleaned, and modeled the data using Power BI to ensure accuracy and relevance. By developing visualizations like bar and pie charts, I compared sales performance by region, salesperson, and product type. 
+                   I designed an interactive dashboard that allowed dynamic filtering by year, quarter, product, and salesperson, providing actionable insights to optimize sales strategies and improve product placement.
+                </p>
+                <div class="portfolio-links">
+                    <!-- Add PDF image or link -->
+                    <a href="https://github.com/Gopinathd1/Furniture-Sales.git" target="_blank" class="btn">View on GitHub</a>
+                    <!-- <img src="path/to/pdf-thumbnail-image.jpg" alt="Power BI Analysis PDF" class="pdf-thumbnail"> -->
+                    </a>
+                    <a href="Furniture Sales.pdf" target="_blank" class="btn">View PDF</a>
+                </div>
+            </div>
+             <div class="portfolio-item">
+                <h3>HR-Data-Analysis</h3>
+                <p>Designed an interactive HR Summary Dashboard in Power BI to visualize key workforce metrics such as employee satisfaction, salary distribution, and departmental performance.
+Using Power Query for data cleaning and DAX formulas for calculated measures, I developed insightful visual reports that highlight the Production department’s strong employee count and satisfaction levels.
+This dashboard enables HR teams to make data-driven decisions to improve employee engagement and compensation strategies.
+                </p>
+                <div class="portfolio-links">
+                    <!-- Add PDF image or link -->
+                    <a href="https://github.com/Gopinathd1/HR-Data-Analysis.git" target="_blank" class="btn">View on GitHub</a>
+                    <!-- <img src="path/to/pdf-thumbnail-image.jpg" alt="Power BI Analysis PDF" class="pdf-thumbnail"> -->
+                    </a>
+                    <a href="HRDataReports.pdf" target="_blank" class="btn">View PDF</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Cerificate Section -->
+
+<!-- Certification Section -->
+<section id="Certifications" class="Certifications">
+    <div class="sub-title">Certifications</div>
+    <div class="certification-list">
+        <div class="certification-item">
+            <h3>Prompt Engineering for ChatGPT</h3>
+            <p class="issuer">Issued by: Great Learning</p>
+            <p class="date">Date: October 2025</p>
+            <!--<a href="certificate-link.pdf" class="btn" target="_blank">View Certificate</a>-->
+        </div>
+        <div class="certification-item">
+            <h3>PowerBI Workshop</h3>
+            <p class="issuer">Issued by: Office Master</p>
+            <p class="date">Date: October 2024 </p>
+           <!-- <a href="certificate-link.pdf" class="btn" target="_blank">View Certificate</a>-->
+        </div>
+        <div class="certification-item">
+            <h3>Introduction To Data Science</h3>
+            <p class="issuer">Issued by: Cisco</p>
+            <p class="date">Date: March 2024</p>
+            <!--<a href="certificate-link.pdf" class="btn" target="_blank">View Certificate</a>-->
+        </div>
+        <div class="certification-item">
+            <h3>AI Workshop</h3>
+            <p class="issuer">Issued by: Be10x</p>
+            <p class="date">Date: March 2024</p>
+            <!--<a href="certificate-link.pdf" class="btn" target="_blank">View Certificate</a>-->
+        </div>
+        <div class="certification-item">
+            <h3>Honors Diploma In Computer Applications</h3>
+            <p class="issuer">Issued by: CSC Institute</p>
+            <p class="date">Date: 2022-2023</p>
+            <!--<a href="certificate-link.pdf" class="btn" target="_blank">View Certificate</a>-->
+        </div>
+        <!-- Add more certifications as needed -->
+    </div>
+</section>
+
+
+
+<!-- TCS Score Section -->
+<section id="tcs-score" class="tcs-score">
+    <div class="sub-title">TCS Score</div>
+    <div class="score-list">
+        <div class="score-item">
+            <h3>Overall TCS Score</h3>
+            <p class="score">Score: 50.99%</p>
+        </div>
+    </div>
+</section>
+
+
+
+
+<!-- Contact Information Section -->
+<section id="ContactInfo" class="Contact">
+    <div class="container">
+        <div class="row">
+            <!-- Left Contact Information -->
+            <div class="contact-left">
+                <h1 class="sub-title contact-title">Contact Me</h1>
+                <p class="contact-info"><i class="fa-solid fa-envelope"></i> gopinath7734@gmail.com</p>
+                <p class="contact-info"><i class="fas fa-phone-alt"></i> +91-9514858565</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/gopinath-d-bca"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/Gopinathd1"><i class="fab fa-github"></i></a>
+                </div>
+                <a href="Gopinath_D_Data_Scientist_Resume.pdf" download class="btn btn2">Download CV</a>
+            </div>
+        </div> <!-- End of Row -->
+    </div> <!-- End of Container -->
+</section>
+
+<!-- Contact Form Section -->
+<section id="ContactForm" class="Contact">
+    <div class="container">
+        <div class="row">
+            <!-- Right Contact Form -->
+            <div class="contact-right">
+                <h2>Get in Touch</h2>
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message" required></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <p id="msg"></p> <!-- Success/Error message display -->
+            </div>
+        </div> <!-- End of Row -->
+    </div> <!-- End of Container -->
+</section>
+
+<!-- Footer Section -->
+<footer class="footer">
+    <p>&copy; 2025 Gopinath. All rights reserved.</p>
+    <p>Data Science | Data Analysis | Machine Learning | Power BI | AI/ML</p>
+</footer>
+
+                
+    <!-- JavaScript -->
+    <script src="java.js" defer>
+        
+
+    
+
+    </script>
+</body>
+</html>
